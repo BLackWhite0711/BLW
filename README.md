@@ -79,8 +79,9 @@ $ python2 __main__.py -h
 # Info 
 - Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
 - Saya Mohon Izin Nya
-- [ * ] Wordlist (cupp)
-- [ * ] HackFB (DRAKFB)
-- [ * ] Setoolkit (Miscellaneous HACK)
-- [ * ] Sqlmap (Scan)
-- [ * ] Brut3k1t(Framework)
+- [ * ] Wordlist  : (cupp)                (All Terminal)
+- [ * ] HackFB    : (DRAKFB)              (All TErminal)
+- [ * ] Setoolkit : (Miscellaneous HACK ) (OS Linux)
+- [ * ] Sqlmap    : (Scan)                (All Terminal)
+- [ * ] Brut3k1t  : (Framework)           (OS Linux)
+- [ * ] TorBrower : (Aplikasi)            (OS Linux) 
