@@ -20,20 +20,30 @@ $ cd BLW
 
 $ python2 BLW.py
 
+
+# BUAT Wordlist
+
+$ cd BLW
+$ ls
+$ cd cupp
+$ python2 cupp.py -i
+
 # KONTAK
 - WhatShapp : 085380067578
-- Instagram : noprian0_0
-- Youtube   : BLackWhite Team
-- Facebook  : https://www.facebook.com/drak.angle.338
+- Instagram : https://www.instagram.com/noprian0_0 (noprian0_0)
+- Youtube   : https://www.youtube.com/channel/UCJWgAlqKsytbWqYrYhAPWvw (BLackWhite Team)
+- Facebook  : https://www.facebook.com/drak.angle.338 (Noprian)
 
 # Support
 - BLackWHite Team
 - Anonymous 
 - Friends DrakWeb
 
-# Info
-- Script ini di buat oleh MR.K7C8NG
-- Dari Team InDoNeSiA CYBER ErRoR SySTem
-- Dan Script Ini Saya perbaiki Agar Si Pembuat Tidak MEnCoid(Menghapus) Script lama
-- Dengan Perubahan Yang Saya Buat
-
+# Info 
+Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
+Saya Mohon Izin Nya
+[ * ] Wordlist (cupp)
+[ * ] HackFB (DRAKFB)
+[ * ] Setoolkit (Miscellaneous HACK)
+[ * ] Sqlmap (Scan)
+[ * ] Brut3k1t
