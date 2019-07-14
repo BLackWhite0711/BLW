@@ -24,9 +24,42 @@ $ python2 BLW.py
 # BUAT Wordlist
 
 $ cd BLW
+
 $ ls
+
 $ cd cupp
+
 $ python2 cupp.py -i
+
+# Setoolkit
+
+$ cd social-engineer-toolkit
+
+$ ls
+
+$ pip2 install -r requirements 
+
+$ ./setoolkit
+
+# SQLMap
+
+$ cd sqlmap
+
+$ ls
+
+$ python2 sqlmap.py -h
+
+# Brut3k1t
+
+$ cd brut3k1t
+
+$ ls
+
+$ python2 setup.py install
+
+$ cd brut3k1t
+
+$ python2 __main__.py -h
 
 # KONTAK
 - WhatShapp : 085380067578
@@ -46,4 +79,4 @@ $ python2 cupp.py -i
 - [ * ] HackFB (DRAKFB)
 - [ * ] Setoolkit (Miscellaneous HACK)
 - [ * ] Sqlmap (Scan)
-- [ * ] Brut3k1t
+- [ * ] Brut3k1t(Framework)
