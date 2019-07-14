@@ -1,6 +1,8 @@
 # SELAMAT DATANG 
 - Jangan Salah Menggunakan
 - Berbagi Lah Ilmu Pada Sahabat/Saudara mu
+- Jika Tidak Ada Gelap Tidak Akan Ada Yang Namanya Terang
+- Bersosialisai lah Dengan Teman Sekitar Mu
 
 # Cara Menggunakan 
 
