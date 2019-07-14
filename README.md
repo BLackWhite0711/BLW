@@ -89,9 +89,9 @@ $sudo apt-get install torbrowser-launcher
 # Info 
 - Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
 - Saya Mohon Izin Nya
-- [ * ] Wordlist  : (cupp)                *(All Terminal)*
-- [ * ] HackFB    : (DRAKFB)              *(All TErminal)*
-- [ * ] Sqlmap    : (Scan)                *(All Terminal)*
-- [ * ] Setoolkit : (Miscellaneous HACK ) *(OS Linux)*
-- [ * ] Brut3k1t  : (Framework)           *(OS Linux)*
-- [ * ] TorBrower : (Aplikasi)            *(OS Linux)* 
+- [ * ] Wordlist  : (cupp)                -  *(All Terminal)*
+- [ * ] HackFB    : (DRAKFB)              -  *(All TErminal)*
+- [ * ] Sqlmap    : (Scan)                -  *(All Terminal)*
+- [ * ] Setoolkit : (Miscellaneous HACK ) - *(OS Linux)*
+- [ * ] Brut3k1t  : (Framework)           - *(OS Linux)*
+- [ * ] TorBrower : (Aplikasi)            - *(OS Linux)* 
