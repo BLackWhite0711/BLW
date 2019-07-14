@@ -41,7 +41,7 @@ $ cd social-engineer-toolkit
 
 $ ls
 
-$ pip2 install -r requirements 
+$ pip2 install -r requirements.txt
 
 $ ./setoolkit
 
