@@ -7,7 +7,8 @@
 - Bersosialisai lah Dengan Teman Sekitar Mu
 
 # Cara Menggunakan 
- - HackFB
+ 
+ # HackFB
  
 $ pkg install update
 
@@ -26,7 +27,7 @@ $ cd BLW
 $ python2 BLW.py
 
 
-- BUAT Wordlist
+# BUAT Wordlist
 
 $ cd BLW
 
@@ -46,7 +47,7 @@ $ pip2 install -r requirements.txt
 
 $ ./setoolkit
 
-- SQLMap
+# SQLMap
 
 $ cd sqlmap
 
@@ -54,7 +55,7 @@ $ ls
 
 $ python2 sqlmap.py -h
 
-- Brut3k1t
+# Brut3k1t
 
 $ cd brut3k1t
 
@@ -66,15 +67,15 @@ $ cd brut3k1t
 
 $ python2 __main__.py -h
 
-- TorBrowserLauncher
+# TorBrowserLauncher
 
 - Install From the PPA
 
-$sudo add-apt-repository ppa:micahflee/ppa
+$ sudo add-apt-repository ppa:micahflee/ppa
 
-$sudo apt-get update
+$ sudo apt-get update
 
-$sudo apt-get install torbrowser-launcher
+$ sudo apt-get install torbrowser-launcher
 
 # KONTAK
 - WhatShapp : 085380067578
@@ -92,7 +93,7 @@ $sudo apt-get install torbrowser-launcher
 - Saya Mohon Izin Nya
 - [ * ] Wordlist  : (cupp)                __-  *(All Terminal)*__
 - [ * ] HackFB    : (DRAKFB)              __-  *(All TErminal)*__
-- [ * ] Sqlmap    : (Scan)                __-  *(All Terminal)*
+- [ * ] Sqlmap    : (Scan)                __-  *(All Terminal)*__
 - [ * ] Setoolkit : (Miscellaneous HACK ) __- *(OS Linux)*__
 - [ * ] Brut3k1t  : (Framework)           __- *(OS Linux)*__
 - [ * ] TorBrower : (Aplikasi)            __- *(OS Linux)*__ 
