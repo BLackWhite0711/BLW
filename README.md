@@ -2,14 +2,22 @@
 - Jangan Salah Menggunakan
 - Berbagi Lah Ilmu Pada Sahabat/Saudara mu
 
-# Cara Menggunakan
+# Cara Menggunakan 
+
 $ pkg install update
+
 $ pkg install git -y
+
 $ pkg install python2 -y
+
 $ pip2 install mechanize
+
 $ pip2 install requests
+
 $ git clone https://github.com/BLackWhite0711/BLW
+
 $ cd BLW
+
 $ python2 BLW.py
 
 # KONTAK
