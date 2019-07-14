@@ -7,7 +7,8 @@
 - Bersosialisai lah Dengan Teman Sekitar Mu
 
 # Cara Menggunakan 
-
+ - HackFB
+ 
 $ pkg install update
 
 $ pkg install git -y
@@ -25,7 +26,7 @@ $ cd BLW
 $ python2 BLW.py
 
 
-# BUAT Wordlist
+- BUAT Wordlist
 
 $ cd BLW
 
@@ -35,7 +36,7 @@ $ cd cupp
 
 $ python2 cupp.py -i
 
-# Setoolkit
+- Setoolkit
 
 $ cd social-engineer-toolkit
 
@@ -45,7 +46,7 @@ $ pip2 install -r requirements.txt
 
 $ ./setoolkit
 
-# SQLMap
+- SQLMap
 
 $ cd sqlmap
 
@@ -53,7 +54,7 @@ $ ls
 
 $ python2 sqlmap.py -h
 
-# Brut3k1t
+- Brut3k1t
 
 $ cd brut3k1t
 
@@ -65,9 +66,9 @@ $ cd brut3k1t
 
 $ python2 __main__.py -h
 
-# TorBrowserLauncher
+- TorBrowserLauncher
 
--Install From the PPA
+- Install From the PPA
 
 $sudo add-apt-repository ppa:micahflee/ppa
 
@@ -89,9 +90,9 @@ $sudo apt-get install torbrowser-launcher
 # Info 
 - Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
 - Saya Mohon Izin Nya
-- [ * ] Wordlist  : (cupp)                -  *(All Terminal)*
-- [ * ] HackFB    : (DRAKFB)              -  *(All TErminal)*
-- [ * ] Sqlmap    : (Scan)                -  *(All Terminal)*
-- [ * ] Setoolkit : (Miscellaneous HACK ) - *(OS Linux)*
-- [ * ] Brut3k1t  : (Framework)           - *(OS Linux)*
-- [ * ] TorBrower : (Aplikasi)            - *(OS Linux)* 
+- [ * ] Wordlist  : (cupp)                __-  *(All Terminal)*__
+- [ * ] HackFB    : (DRAKFB)              __-  *(All TErminal)*__
+- [ * ] Sqlmap    : (Scan)                __-  *(All Terminal)*
+- [ * ] Setoolkit : (Miscellaneous HACK ) __- *(OS Linux)*__
+- [ * ] Brut3k1t  : (Framework)           __- *(OS Linux)*__
+- [ * ] TorBrower : (Aplikasi)            __- *(OS Linux)*__ 
