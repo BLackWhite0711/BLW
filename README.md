@@ -65,6 +65,16 @@ $ cd brut3k1t
 
 $ python2 __main__.py -h
 
+# TorBrowserLauncher
+
+-Install From the PPA
+
+$sudo add-apt-repository ppa:micahflee/ppa
+
+$sudo apt-get update
+
+$sudo apt-get install torbrowser-launcher
+
 # KONTAK
 - WhatShapp : 085380067578
 - Instagram : https://www.instagram.com/noprian0_0 (noprian0_0)
