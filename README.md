@@ -40,10 +40,10 @@ $ python2 cupp.py -i
 - Friends DrakWeb
 
 # Info 
-Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
-Saya Mohon Izin Nya
-[ * ] Wordlist (cupp)
-[ * ] HackFB (DRAKFB)
-[ * ] Setoolkit (Miscellaneous HACK)
-[ * ] Sqlmap (Scan)
-[ * ] Brut3k1t
+- Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
+- Saya Mohon Izin Nya
+- [ * ] Wordlist (cupp)
+- [ * ] HackFB (DRAKFB)
+- [ * ] Setoolkit (Miscellaneous HACK)
+- [ * ] Sqlmap (Scan)
+- [ * ] Brut3k1t
