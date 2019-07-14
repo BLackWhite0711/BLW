@@ -41,7 +41,7 @@ $ cd social-engineer-toolkit
 
 $ ls
 
-$ pip2 install -r requirements 
+$ pip2 install -r requirements.txt
 
 $ ./setoolkit
 
@@ -65,6 +65,16 @@ $ cd brut3k1t
 
 $ python2 __main__.py -h
 
+# TorBrowserLauncher
+
+-Install From the PPA
+
+$sudo add-apt-repository ppa:micahflee/ppa
+
+$sudo apt-get update
+
+$sudo apt-get install torbrowser-launcher
+
 # KONTAK
 - WhatShapp : 085380067578
 - Instagram : https://www.instagram.com/noprian0_0 (noprian0_0)
@@ -79,9 +89,9 @@ $ python2 __main__.py -h
 # Info 
 - Saya Membuat SCript Ini Untuk Keperluan Saya Sendri
 - Saya Mohon Izin Nya
-- [ * ] Wordlist  : (cupp)                (All Terminal)
-- [ * ] HackFB    : (DRAKFB)              (All TErminal)
-- [ * ] Setoolkit : (Miscellaneous HACK ) (OS Linux)
-- [ * ] Sqlmap    : (Scan)                (All Terminal)
-- [ * ] Brut3k1t  : (Framework)           (OS Linux)
-- [ * ] TorBrower : (Aplikasi)            (OS Linux) 
+- [ * ] Wordlist  : (cupp)                -  *(All Terminal)*
+- [ * ] HackFB    : (DRAKFB)              -  *(All TErminal)*
+- [ * ] Sqlmap    : (Scan)                -  *(All Terminal)*
+- [ * ] Setoolkit : (Miscellaneous HACK ) - *(OS Linux)*
+- [ * ] Brut3k1t  : (Framework)           - *(OS Linux)*
+- [ * ] TorBrower : (Aplikasi)            - *(OS Linux)* 
