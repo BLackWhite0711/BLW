@@ -1,3 +1,5 @@
+#  Script Masih Dalam Proses
+
 # SELAMAT DATANG 
 - Jangan Salah Menggunakan
 - Berbagi Lah Ilmu Pada Sahabat/Saudara mu
