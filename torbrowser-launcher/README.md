@@ -14,7 +14,7 @@ Peluncur Peramban Tor termasuk dalam Ubuntu, Debian, dan Fedora. Untuk menginsta
 
 Anda mungkin ingin memeriksa [dokumen desain keamanan] (/ security_design.md).
 
-! [Tangkapan layar Tor Browser Launcher] (/ tangkapan layar.png)
+! [Tangkapan layar Tor Browser Launcher] (/ screenshot.png)
 
 # Menginstal dari PPA
 
