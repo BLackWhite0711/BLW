@@ -37,7 +37,7 @@ $ cd cupp
 
 $ python2 cupp.py -i
 
-- Setoolkit
+# Setoolkit
 
 $ cd social-engineer-toolkit
 
