@@ -2,13 +2,13 @@
 
 # Semiphemeral
 
-There are plenty of tools that let you make your Twitter feed ephemeral, automatically deleting tweets older than some threshold, like one month.
+Ada banyak alat yang memungkinkan Anda membuat umpan Twitter Anda sesaat, secara otomatis menghapus tweet yang lebih lama dari batas tertentu, seperti satu bulan.
 
-Semiphemeral does this, but also lets you automatically exclude tweets based on criteria: how many RTs or likes they have, and if they're part of a thread where one of your tweets has that many RTs or likes. It also lets you manually select tweets you'd like to exclude from deleting.
+Semiphemeral melakukan ini, tetapi juga memungkinkan Anda secara otomatis mengecualikan tweet berdasarkan kriteria: berapa banyak RT atau suka yang dimiliki, dan jika mereka bagian dari utas di mana salah satu tweet Anda memiliki banyak RT atau suka. Ini juga memungkinkan Anda secara manual memilih tweet yang ingin Anda kecualikan dari penghapusan.
 
-~~It can also automatically delete your old direct messages.~~ (DM support is currently [broken](https://github.com/tweepy/tweepy/issues/1081) in tweepy, I'm gonna wait until it's fixed first.)
+~~ Ini juga dapat secara otomatis menghapus pesan langsung lama Anda. ~~ (Dukungan DM saat ini [rusak] (https://github.com/tweepy/tweepy/issues/1081) dalam tweepy, aku akan menunggu sampai diperbaiki pertama.)
 
-_Read more in the blog post: [Semiphemeral: Automatically delete your old tweets, except for the ones you want to keep](https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/)_
+_Baca selengkapnya di posting blog: [Semiphemeral: Secara otomatis menghapus tweet lama Anda, kecuali yang Anda ingin pertahankan] (https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets- Kecuali-untuk-yang-Anda-ingin-untuk-menjaga /) _
 
 
 ## Installation
@@ -17,15 +17,15 @@ _Read more in the blog post: [Semiphemeral: Automatically delete your old tweets
 pip3 install semiphemeral
 ```
 
-## How it works
+## Bagaimana itu bekerja
 
-Semiphemeral is a command line tool that you run locally on your computer, or on a server.
+Semiphemeral adalah alat baris perintah yang Anda jalankan secara lokal di komputer Anda, atau di server.
 
 ```
 $ semiphemeral
 Usage: semiphemeral [OPTIONS] COMMAND [ARGS]...
 
-  Automatically delete your old tweets, except for the ones you want to keep
+  Secara otomatis menghapus tweet lama Anda, kecuali yang Anda ingin pertahankan
 
 Options:
   --help  Show this message and exit.
@@ -37,29 +37,28 @@ Commands:
   stats      Show stats about tweets in the database
 ```
 
-Start by running `semiphemeral configure`, which starts a local web server at http://127.0.0.1:8080/. Load that website in a browser.
+Mulailah dengan menjalankan `semiphemeral configure`, yang memulai server web lokal di http://127.0.0.1:8080/. Muat situs web itu di browser.
 
-You must supply Twitter API credentials here, which you can get by following [this guide](https://python-twitter.readthedocs.io/en/latest/getting_started.html). Basically, you need to login to https://developer.twitter.com/ and create a new "Twitter app" that only you will be using (when creating an app, you're welcome to use https://github.com/micahflee/semiphemeral as the website URL for your app).
-
+Anda harus memberikan kredensial API Twitter di sini, yang bisa Anda peroleh dengan mengikuti [panduan ini] (https://python-twitter.readthedocs.io/en/latest/getting_started.html). Pada dasarnya, Anda harus masuk ke https://developer.twitter.com/ dan membuat "aplikasi Twitter" baru yang hanya akan Anda gunakan (saat membuat aplikasi, Anda boleh menggunakan https://github.com / micahflee / semiphemeral sebagai URL situs web untuk aplikasi Anda).
 From the settings page you also tell semiphemeral which tweets to exclude from deletion:
 
 ![Settings](/img/settings.png)
 
-Once you have configured semiphemeral, fetch all of the tweets from your account by running `semiphemeral fetch`. (It may take a long time if you have a lot of tweets -- when semiphemeral hits a Twitter rate limit, it just waits the shortest amount of time allowed until it can continue fetching.)
+Setelah Anda mengkonfigurasi semiphemeral, ambil semua tweet dari akun Anda dengan menjalankan `semiphemeral fetch`. (Mungkin butuh waktu lama jika Anda memiliki banyak tweet - ketika semiphemeral mencapai batas tingkat Twitter, ia hanya menunggu jumlah waktu tersingkat yang diizinkan hingga dapat melanjutkan pengambilan.)
 
-Then go back to the configuration web app and look at the tweets page. From here, you can look at all of the tweets that are going to get deleted the next time you run `semiphemeral delete`, and choose to manually exclude some of them from deletion. This interface paginates all of the tweets that are staged for deletion, and allows you to filter them by searching for phrases in the text of your tweets.
+Kemudian kembali ke aplikasi web konfigurasi dan lihat halaman tweet. Dari sini, Anda dapat melihat semua tweet yang akan dihapus saat berikutnya Anda menjalankan `semiphemeral delete`, dan memilih untuk secara manual mengecualikan beberapa dari mereka dari penghapusan. Antarmuka ini memberi peringkat pada semua tweet yang dipentaskan untuk dihapus, dan memungkinkan Anda untuk memfilternya dengan mencari frasa dalam teks tweet Anda.
 
-Once you have chosen all tweets you want to exclude, you may want to [download your Twitter archive](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive) for your records.
+Setelah Anda memilih semua tweet yang ingin Anda kecualikan, Anda mungkin ingin [mengunduh arsip Twitter Anda] (https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter- arsip) untuk catatan Anda.
 
-Then run `semiphemeral delete` (this also fetches latest tweets before deleting). The first time it might take a long time. Like with fetching, it will wait when it hits a Twitter rate limit. Let it run once first before automating it.
+Kemudian jalankan `semiphemeral delete` (ini juga mengambil tweet terbaru sebelum menghapus). Pertama kali mungkin butuh waktu lama. Seperti halnya dengan mengambil, ia akan menunggu ketika mencapai batas tingkat Twitter. Biarkan berjalan sekali dulu sebelum mengotomatiskannya.
 
-After you have manually deleted once, you can automatically delete your old tweets by running `semiphemeral delete` once a day in a cron job.
+Setelah Anda menghapus secara manual sekali, Anda dapat secara otomatis menghapus tweet lama Anda dengan menjalankan `semiphemeral delete` sekali sehari dalam pekerjaan cron.
 
-Settings are stored in `~/.semiphemeral/settings.json`. All tweets (including exceptions, and deleted tweets) are stored in a sqlite database `~/.semiphemeral/tweets.db`.
+Pengaturan disimpan di `~ / .semiphemeral / settings.json`. Semua tweets (termasuk pengecualian, dan tweet yang dihapus) disimpan dalam database sqlite `~ / .semiphemeral / tweets.db`.
 
 ## Development
 
-Make sure you have [pipenv](https://pipenv.readthedocs.io/en/latest/). Then install dependencies:
+Pastikan Anda memiliki [pipenv] (https://pipenv.readthedocs.io/en/latest/). Kemudian instal dependensi:
 
 ```sh
 pipenv install --dev
