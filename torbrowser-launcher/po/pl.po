@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-23 15:47-0700\n"
+"PO-Revision-Date: 2016-12-02 15:35+0400\n"
+"Last-Translator: AreYouLoco? <areyouloco@paranoici.org>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: __init__.py:65 launcher.py:470
+msgid "Tor Browser Launcher"
+msgstr "Launcher Przeglądarki Tora"
+
+#: __init__.py:66
+msgid "By Micah Lee, licensed under MIT"
+msgstr ""
+
+#: __init__.py:67
+#, python-brace-format
+msgid "version {0}"
+msgstr "wersja {0}"
+
+#: common.py:100
+#, python-brace-format
+msgid "Error creating {0}"
+msgstr "Błąd przy tworzeniu {0}"
+
+#: common.py:102 common.py:180
+#, python-brace-format
+msgid "{0} is not writable"
+msgstr "{0} jest tylko do odczytu"
+
+#: common.py:177
+#, python-brace-format
+msgid "Cannot create directory {0}"
+msgstr "Nie można stworzyć {0}"
+
+#: common.py:187
+msgid "Creating GnuPG homedir"
+msgstr "Tworzenie katalogu głównego GnuPG"
+
+#: common.py:254
+#, python-format
+msgid "Could not import key with fingerprint: %s."
+msgstr ""
+
+#: common.py:259
+msgid "Not all keys were imported successfully!"
+msgstr ""
+
+#: launcher.py:83
+#, fuzzy
+msgid "Downloading Tor Browser for the first time."
+msgstr "Ponowne pobieranie Tor Browser Bundle"
+
+#: launcher.py:85
+msgid ""
+"Your version of Tor Browser is out-of-date. Downloading the newest version."
+msgstr ""
+
+#: launcher.py:100
+msgid "Downloading over Tor"
+msgstr ""
+
+#: launcher.py:111
+msgid "Tor Browser"
+msgstr "Przeglądarka Tora"
+
+#: launcher.py:128
+msgid "Start"
+msgstr ""
+
+#: launcher.py:174
+msgid "Yes"
+msgstr ""
+
+#: launcher.py:178
+msgid "Exit"
+msgstr ""
+
+#: launcher.py:192 settings.py:136
+msgid "Cancel"
+msgstr ""
+
+#: launcher.py:231 launcher.py:245 launcher.py:249 launcher.py:279
+#: launcher.py:281
+msgid "Downloading"
+msgstr "Pobieranie"
+
+#: launcher.py:238
+msgid "Latest version: {}"
+msgstr ""
+
+#: launcher.py:241
+msgid "Error detecting Tor Browser version."
+msgstr ""
+
+#: launcher.py:256 launcher.py:357
+msgid "Verifying Signature"
+msgstr "Weryfikowanie podpisu"
+
+#: launcher.py:260
+msgid "Extracting"
+msgstr "Rozpakowywanie"
+
+#: launcher.py:264
+msgid "Running"
+msgstr "Uruchamianie"
+
+#: launcher.py:268
+msgid "Starting download over again"
+msgstr "Ponowne rozpoczynanie pobierania"
+
+#: launcher.py:279 launcher.py:295
+msgid "(over Tor)"
+msgstr ""
+
+#: launcher.py:293
+msgid "Downloaded"
+msgstr "Pobrano"
+
+#: launcher.py:393
+msgid "Installing"
+msgstr "Instalowanie"
+
+#: launcher.py:401
+#, python-brace-format
+msgid "Tor Browser Launcher doesn't understand the file format of {0}"
+msgstr ""
+
+#: launcher.py:427
+msgid ""
+"The version of Tor Browser you have installed is earlier than it should be, "
+"which could be a sign of an attack!"
+msgstr ""
+
+#: launcher.py:446
+#, fuzzy
+msgid "Downloading Tor Browser over again."
+msgstr "Ponowne pobieranie Tor Browser Bundle"
+
+#: launcher.py:516 launcher.py:525 launcher.py:533
+msgid "Download Error:"
+msgstr "Błąd pobierania:"
+
+#: launcher.py:517
+msgid "You are currently using a non-default mirror"
+msgstr ""
+
+#: launcher.py:518
+msgid "Would you like to switch back to the default?"
+msgstr ""
+
+#: launcher.py:527
+msgid "Would you like to try the English version of Tor Browser instead?"
+msgstr ""
+
+#: launcher.py:548
+#, python-brace-format
+msgid ""
+"Invalid SSL certificate for:\n"
+"{0}\n"
+"\n"
+"You may be under attack."
+msgstr ""
+
+#: launcher.py:550
+msgid "Try the download again using Tor?"
+msgstr ""
+
+#: launcher.py:559
+#, python-brace-format
+msgid ""
+"Error starting download:\n"
+"\n"
+"{0}\n"
+"\n"
+"Trying to download over Tor. Are you sure Tor is configured correctly and "
+"running?"
+msgstr ""
+
+#: launcher.py:563
+#, python-brace-format
+msgid ""
+"Error starting download:\n"
+"\n"
+"{0}\n"
+"\n"
+"Are you connected to the internet?"
+msgstr ""
+"Błąd przy rozpoczynaniu pobierania:\n"
+"\n"
+"{0}\n"
+"\n"
+"Czy jesteś podłąćzony do internetu?"
+
+#: settings.py:46
+msgid "Tor Browser Launcher Settings"
+msgstr ""
+
+#: settings.py:50
+msgid "Download over system Tor"
+msgstr ""
+
+#: settings.py:57
+msgid "Force downloading English version of Tor Browser"
+msgstr ""
+
+#: settings.py:66
+msgid "Tor server"
+msgstr ""
+
+#: settings.py:82
+msgid "Status: Installed"
+msgstr ""
+
+#: settings.py:84
+msgid "Status: Not Installed"
+msgstr ""
+
+#: settings.py:87
+msgid "Install Tor Browser"
+msgstr ""
+
+#: settings.py:92
+msgid "Reinstall Tor Browser"
+msgstr ""
+
+#: settings.py:115
+msgid "Mirror"
+msgstr ""
+
+#: settings.py:131
+msgid "Save && Exit"
+msgstr ""
+
+#~ msgid ""
+#~ "SIGNATURE VERIFICATION FAILED!\n"
+#~ "\n"
+#~ "You might be under attack, or there might just be a networking problem. "
+#~ "Click Start try the download again."
+#~ msgstr ""
+#~ "WERYFIKACJA PODPISU NIEUDANA!\n"
+#~ "\n"
+#~ "Możesz być atakowany, lub mogą być to tylko problemy z połączeniem. "
+#~ "Naciśnij Start aby pobrać ponownie."
