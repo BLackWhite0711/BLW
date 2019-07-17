@@ -1,24 +1,24 @@
 # Tor Browser Launcher
 
-_**Are you getting an error?** Sometimes updates in Tor Browser itself will break Tor Browser Launcher. There's a good chance that the problem you're experiencing has already been fixed in the [newest version](https://github.com/micahflee/torbrowser-launcher/releases), but Linux distributions can be slow to provide up-to-date packages. In this case, you can install from the PPA (instructions below), or [build from source](/BUILD.md)._
+_ ** Apakah Anda mendapatkan kesalahan? ** Terkadang pembaruan di Tor Browser itu sendiri akan merusak Tor Browser Launcher. Ada kemungkinan besar bahwa masalah yang Anda alami telah diperbaiki di [versi terbaru] (https://github.com/micahflee/torbrowser-launcher/releases), tetapi distribusi Linux bisa lambat untuk menyediakan hingga paket -tanggal. Dalam hal ini, Anda dapat menginstal dari PPA (instruksi di bawah), atau [build from source] (/ BUILD.md) ._
 
-Tor Browser Launcher is intended to make Tor Browser easier to install and use for GNU/Linux users. You install ```torbrowser-launcher``` from your distribution's package manager and it handles everything else:
+Tor Browser Launcher dimaksudkan untuk membuat Tor Browser lebih mudah dipasang dan digunakan untuk pengguna GNU / Linux. Anda menginstal `` `torbrowser-launcher``` dari manajer paket distribusi Anda dan menangani semuanya:
 
-* Downloads and installs the most recent version of Tor Browser in your language and for your computer's architecture, or launches Tor Browser if it's already installed (Tor Browser will automatically update itself)
-* Verifies Tor Browser's [signature](https://www.torproject.org/docs/verifying-signatures.html.en) for you, to ensure the version you downloaded was cryptographically signed by Tor developers and was not tampered with
-* Adds "Tor Browser" and "Tor Browser Launcher Settings" application launcher to your desktop environment's menu
-* Includes AppArmor profiles to make a Tor Browser compromise not as bad
-* Optionally plays a modem sound when you open Tor Browser (because Tor is so slow)
+* Mengunduh dan menginstal versi Tor Browser terbaru dalam bahasa Anda dan untuk arsitektur komputer Anda, atau meluncurkan Tor Browser jika sudah diinstal (Tor Browser akan secara otomatis memperbarui sendiri)
+* Memverifikasi [tanda tangan] Tor Browser (https://www.torproject.org/docs/verifying-signatures.html.en) untuk Anda, untuk memastikan versi yang Anda unduh ditandatangani secara kriptografi oleh pengembang Tor dan tidak dirusak oleh
+* Menambahkan peluncur aplikasi "Tor Browser" dan "Tor Browser Launcher Settings" ke menu lingkungan desktop Anda
+* Termasuk profil AppArmor untuk membuat kompromi Browser Tor tidak seburuk itu
+* Secara opsional memutar suara modem ketika Anda membuka Tor Browser (karena Tor sangat lambat)
 
-Tor Browser Launcher is included in Ubuntu, Debian, and Fedora. To install it in any other distribution, see the [build instructions](/BUILD.md).
+Peluncur Peramban Tor termasuk dalam Ubuntu, Debian, dan Fedora. Untuk menginstalnya di distribusi lain, lihat [membangun instruksi] (/ BUILD.md)
 
-You might want to check out the [security design doc](/security_design.md).
+Anda mungkin ingin memeriksa [dokumen desain keamanan] (/ security_design.md).
 
-![Tor Browser Launcher screenshot](/screenshot.png)
+! [Tangkapan layar Tor Browser Launcher] (/ tangkapan layar.png)
 
-# Installing from the PPA
+# Menginstal dari PPA
 
-If you want to always have the latest version of the `torbrowser-launcher` package before your distribution gets it, you can use my PPA:
+Jika Anda ingin selalu memiliki versi terbaru dari paket `torbrowser-launcher` sebelum distribusi Anda mendapatkannya, Anda dapat menggunakan PPA saya:
 
 ```sh
 sudo add-apt-repository ppa:micahflee/ppa
