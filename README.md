@@ -77,6 +77,10 @@ $ sudo apt-get update
 
 $ sudo apt-get install torbrowser-launcher
 
+# Twiter 
+
+
+
 # KONTAK
 - WhatShapp : 085380067578
 - Instagram : https://www.instagram.com/noprian0_0 (noprian0_0)
@@ -97,3 +101,4 @@ $ sudo apt-get install torbrowser-launcher
 - [ * ] Setoolkit : (Miscellaneous HACK ) __- *(OS Linux)*__
 - [ * ] Brut3k1t  : (Framework)           __- *(OS Linux)*__
 - [ * ] TorBrower : (Aplikasi)            __- *(OS Linux)*__ 
+- [ * ] semiphemeral : Twiter 
