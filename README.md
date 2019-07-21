@@ -1,4 +1,3 @@
-#  Script Masih Dalam Proses
 
 # SELAMAT DATANG 
 - Jangan Salah Menggunakan
